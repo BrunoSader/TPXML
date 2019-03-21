@@ -3,18 +3,21 @@
 <!-- New document created with EditiX at Wed Mar 20 16:51:30 CET 2019 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
 	<xsl:output method="html"/>
+
 	<xsl:template match="/">
 		<html>
 			<head>
 				<title>
-			    Pays du monde 
-			  </title>
+					Pays du monde
+				</title>
 			</head>
 			<body style="background-color:white;">
 				<h1>Les pays du monde</h1>
-			      Mise en forme par : moi, mon binôme (B3149)
-			      <xsl:apply-templates select="//metadonnees"/>
+				Mise en forme par : moi, mon binôme (B3149)
+
+				<xsl:apply-templates select="//metadonnees"/>
 				<table border="3" width="100%" align="center">
 					<tr>
 						<th>N°</th>
@@ -24,34 +27,69 @@
 						<th>Coordonn</th>
 						<th>Drapeau</th>
 					</tr>
+
 					<xsl:apply-templates select="//country"/>
 				</table>
 			</body>
 		</html>
 	</xsl:template>
+
 	<xsl:template match="metadonnees">
 		<p style="text-align:center; color:blue;">
-       			 Objectif : <xsl:value-of select="objectif"/>
+			Objectif :
+
+			<xsl:value-of select="objectif"/>
 		</p>
 		<hr/>
 	</xsl:template>
+
 	<xsl:template match="country">
-	<tr>
-	<td><xsl:number/></td>
-	<td><xsl:value-of select="name/common"/> (<xsl:value-of select="name/official"/>)</td>
-	<td>
-	  <xsl:choose>
-     		<xsl:when test="name/native_name[@lang='fra']">
-		<span style="color:brown">
-		<xsl:value-of select="capital"/>
-		</span>
-	     </xsl:when>
-	     <xsl:otherwise>
-		<xsl:value-of select="capital"/>
-	     </xsl:otherwise>
-	   </xsl:choose>
-	</td>
-	</tr>
+		<tr>
+			<td><xsl:number/></td>
+			<td><xsl:value-of select="name/common"/>
+				(<xsl:value-of select="name/official"/>)</td>
+			<td>
+
+				<xsl:choose>
+
+					<xsl:when test="name/native_name[@lang='fra']">
+						<span style="color:brown">
+							<xsl:value-of select="capital"/>
+						</span>
+					</xsl:when>
+
+					<xsl:otherwise>
+						<xsl:value-of select="capital"/>
+					</xsl:otherwise>
+
+				</xsl:choose>
+			</td>
+			<td>
+
+				<xsl:choose>
+
+					<xsl:when test="borders[count(neighbour)>0]">
+						<xsl:for-each select="borders/neighbour">
+							<xsl:value-of select="."/>,
+						</xsl:for-each>
+					</xsl:when>
+
+					<xsl:otherwise>
+
+						<xsl:choose>
+
+							<xsl:when test="landlocked='false'">
+								Île
+							</xsl:when>
+
+							<xsl:otherwise></xsl:otherwise>
+						</xsl:choose>
+					</xsl:otherwise>
+
+				</xsl:choose>
+			</td>
+			<td></td>
+		</tr>
 
 	</xsl:template>
 </xsl:stylesheet>
