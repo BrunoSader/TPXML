@@ -24,7 +24,7 @@
 						<th>Nom</th>
 						<th>Capitale</th>
 						<th>Voisins</th>
-						<th>Coordonn</th>
+						<th>Coordonnées</th>
 						<th>Drapeau</th>
 					</tr>
 
@@ -88,7 +88,12 @@
 
 				</xsl:choose>
 			</td>
-			<td></td>
+			<td>
+				Latitude:
+				<xsl:value-of select="coordinates/@lat"/>
+				, Longitude:
+				<xsl:value-of select="coordinates/@long"/>
+			</td>
 		</tr>
 
 	</xsl:template>
