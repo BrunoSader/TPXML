@@ -15,21 +15,35 @@
 			</head>
 			<body style="background-color:white;">
 				<h1>Les pays du monde</h1>
-				Mise en forme par : moi, mon binôme (B3149)
-
+				Mise en forme par : Rox, Brubru, Soso (B3149)
+				
 				<xsl:apply-templates select="//metadonnees"/>
-				<table border="3" width="100%" align="center">
-					<tr>
-						<th>N°</th>
-						<th>Nom</th>
-						<th>Capitale</th>
-						<th>Voisins</th>
-						<th>Coordonnées</th>
-						<th>Drapeau</th>
-					</tr>
-
-					<xsl:apply-templates select="//country"/>
-				</table>
+					<br/>
+					Pays avec 6 voisins : 
+						<xsl:for-each select="//country">
+						<xsl:if test="borders[count(neighbour)=6]">
+						<xsl:value-of select="name/common"/>,
+						</xsl:if>
+						</xsl:for-each>
+					<br/>
+					<br/>
+					Pays ayant le nom le plus court : //manque la requête
+					<br/>
+					<br/>
+					<table border="3" width="100%" align="center">
+						<tr>
+							<th>N°</th>
+							<th>Nom</th>
+							<th>Capitale</th>
+							<th>Voisins</th>
+							<th>Coordonnées</th>
+							<th>Drapeau</th>
+						</tr>
+				
+				<xsl:apply-templates select="//country"/>
+				
+			</table>
+				
 			</body>
 		</html>
 	</xsl:template>
@@ -43,7 +57,20 @@
 		<hr/>
 	</xsl:template>
 
+	<xsl:template name="lal">
+		faire un for each de chaque continent,
+		dedans un for each de chaque sous continent,
+		dedans créer un tableau et appeler un template qui va mettre tous les pays restant dans le tableau
+		<xsl:for-each select="infosContinent/continent">
+						<text>Pays du continent : </text>
+						<xsl:value-of select="continent"/>
+						<text> par sous-régions : </text>
+        </xsl:for-each>
+	</xsl:template>
+
 	<xsl:template match="country">
+			
+
 		<tr>
 			<td><xsl:number/></td>
 			<td><xsl:value-of select="name/common"/>
@@ -91,10 +118,11 @@
 			<td>
 				Latitude:
 				<xsl:value-of select="coordinates/@lat"/>
-				, Longitude:
+				<br/>
+				Longitude:
 				<xsl:value-of select="coordinates/@long"/>
 			</td>
 		</tr>
-
+		
 	</xsl:template>
 </xsl:stylesheet>
