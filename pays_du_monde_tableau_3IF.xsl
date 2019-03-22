@@ -122,6 +122,14 @@
 				Longitude:
 				<xsl:value-of select="coordinates/@long"/>
 			</td>
+			<td>
+			<xsl:variable name= "code"> 
+				<xsl:value-of select="codes/cca2"/>
+			 </xsl:variable>
+			 	<xsl:value-of select="$code"/>
+				<img src="http://www.geonames.org/flags/x/[$code].gif" alt="" height="40" width="60"/>
+			
+			</td>
 		</tr>
 		
 	</xsl:template>
