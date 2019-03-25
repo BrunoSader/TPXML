@@ -31,7 +31,8 @@
 				Pays ayant le nom le plus court : //manque la requête
 				<br/>
 				<br/> 
-				<xsl:for-each select = ".//continent[not(.=preceding::*)]"> <li> <xsl:value-of select = "." /> </li>
+				<xsl:for-each select = ".//continent[not(.=preceding::*)]"> 
+				<li> Pays du continent : <xsl:value-of select = "." /> par sous-régions :</li>
 				<xsl:variable name="conti">
 					<xsl:value-of select="//continent"/>
 				</xsl:variable>
@@ -85,7 +86,10 @@
 		<xsl:for-each select="//country">
 		<tr>
 			<td><xsl:number/></td>
-			<td><xsl:value-of select="name/common"/>
+			<td>
+			<span style="color:green">
+			<xsl:value-of select="name/common"/>
+			</span>
 				(<xsl:value-of select="name/official"/>)</td>
 			<td>
 
