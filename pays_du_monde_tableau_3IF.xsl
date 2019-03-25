@@ -32,13 +32,14 @@
 				<br/> 
 				<xsl:for-each select = "//continent[not(.=preceding::*)]"> 
 				<h3> Pays du continent : <xsl:value-of select = "." /> par sous-régions :</h3>
-		 
-				<xsl:variable name="region">
-					<xsl:value-of select="//subregion"/>
-				</xsl:variable> 
 				<xsl:variable name= "conti"> 
 								<xsl:value-of select="."/>
-			 				</xsl:variable>  
+			 	</xsl:variable> 
+				 <xsl:for-each select = "//subregion[not(.=preceding::*)]"> 
+				<h4>   <xsl:value-of select = "." />  </h4>
+				<xsl:variable name= "region"> 
+								<xsl:value-of select="."/>
+			 	</xsl:variable>   
 				<table border="3" width="100%" align="center">
 					<tr>
 						<th>N°</th>
@@ -48,11 +49,13 @@
 						<th>Coordonnées</th>
 						<th>Drapeau</th>
 					</tr>
-
 					<xsl:call-template name= "remplirTab">
-					<xsl:with-param name= "contine" select = "$conti" /> 
+					<xsl:with-param name= "contine" select = "$conti" />
+					<xsl:with-param name= "reg" select = "$region" /> 
 					 </xsl:call-template> 
-				</table>
+				</table> 
+				 </xsl:for-each>
+				
 				 </xsl:for-each>
 
 			</body>
@@ -69,9 +72,11 @@
 	</xsl:template> 
 
 	<xsl:template name ="remplirTab">
-		<xsl:param name= "contine" select = "//continent" />   
+		<xsl:param name= "contine" select = "//continent" /> 
+		<xsl:param name= "reg" select = "//subregion" />   
 		<xsl:for-each select="//country">
 		<xsl:if test="infosContinent[continent = $contine]">
+		<xsl:if test="infosContinent[subregion = $reg]">
 		<tr>
 			<td><xsl:number/></td>
 			<td>
@@ -143,6 +148,7 @@
 
 			</td>
 		</tr>
+		</xsl:if>
 		</xsl:if>
 	</xsl:for-each>
 	</xsl:template> 
