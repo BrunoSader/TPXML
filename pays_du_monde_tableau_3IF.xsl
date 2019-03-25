@@ -19,8 +19,7 @@
 
 				<xsl:apply-templates select="//metadonnees"/>
 				<br/>
-				Pays avec 6 voisins :
-
+				Pays avec 6 voisins : 
 				<xsl:for-each select="//country">
 					<xsl:if test="borders[count(neighbour)=6]">
 						<xsl:value-of select="name/common"/>,
@@ -31,14 +30,15 @@
 				Pays ayant le nom le plus court : //manque la requête
 				<br/>
 				<br/> 
-				<xsl:for-each select = ".//continent[not(.=preceding::*)]"> 
-				<li> Pays du continent : <xsl:value-of select = "." /> par sous-régions :</li>
-				<xsl:variable name="conti">
-					<xsl:value-of select="//continent"/>
-				</xsl:variable>
+				<xsl:for-each select = "//continent[not(.=preceding::*)]"> 
+				<h3> Pays du continent : <xsl:value-of select = "." /> par sous-régions :</h3>
+		 
 				<xsl:variable name="region">
 					<xsl:value-of select="//subregion"/>
-				</xsl:variable>
+				</xsl:variable> 
+				<xsl:variable name= "conti"> 
+								<xsl:value-of select="."/>
+			 				</xsl:variable>  
 				<table border="3" width="100%" align="center">
 					<tr>
 						<th>N°</th>
@@ -49,7 +49,9 @@
 						<th>Drapeau</th>
 					</tr>
 
-					<xsl:call-template name= "remplirTab"> </xsl:call-template> 
+					<xsl:call-template name= "remplirTab">
+					<xsl:with-param name= "contine" select = "$conti" /> 
+					 </xsl:call-template> 
 				</table>
 				 </xsl:for-each>
 
@@ -64,48 +66,28 @@
 			<xsl:value-of select="objectif"/>
 		</p>
 		<hr/>
-	</xsl:template>
-
-	<xsl:template match="lal">
-	<h1>Les pays du monde</h1>
-		faire un for each de chaque continent, dedans un for each de chaque sous continent, dedans créer un tableau et appeler un template qui va mettre tous les pays restant dans le tableau
-		
-		<xsl:for-each select="infosContinent/continent">
-			<text>Pays du continent :
-			</text>
-
-			<xsl:value-of select="continent"/>
-			<text>
-				par sous-régions :
-			</text>
-		</xsl:for-each>
-	</xsl:template>
+	</xsl:template> 
 
 	<xsl:template name ="remplirTab">
-	il faut surement faire un template avec paramètre et mettre le nom de continent en paramètre puis faire une selection sur les pays. 
+		<xsl:param name= "contine" select = "//continent" />   
 		<xsl:for-each select="//country">
+		<xsl:if test="infosContinent[continent = $contine]">
 		<tr>
 			<td><xsl:number/></td>
 			<td>
-			<span style="color:green">
-			<xsl:value-of select="name/common"/>
-			</span>
-				(<xsl:value-of select="name/official"/>)</td>
-			<td>
-
-				<xsl:choose>
-
-					<xsl:when test="name/native_name[@lang='fra']">
-						<span style="color:brown">
-							<xsl:value-of select="capital"/>
-						</span>
-					</xsl:when>
-
-					<xsl:otherwise>
-						<xsl:value-of select="capital"/>
-					</xsl:otherwise>
-
-				</xsl:choose>
+				<span style="color:green">
+					<xsl:value-of select="name/common"/>
+				</span>
+				(<xsl:value-of select="name/official"/>)
+				<xsl:if test="name/native_name[@lang='fra']">
+					<span style="color:brown">
+						<br/>
+						Nom français : <xsl:value-of select="name/native_name[@lang='fra']/official"/>
+					</span>
+				</xsl:if>
+			</td>
+			<td> 
+				<xsl:value-of select="capital"/> 
 			</td>
 			<td>
 
@@ -113,9 +95,15 @@
 
 					<xsl:when test="borders[count(neighbour)>0]">
 
-						<xsl:for-each select="borders/neighbour">
-							
-							<xsl:value-of select="."/>,
+						<xsl:for-each select="borders/neighbour"> 
+							<xsl:variable name= "code"> 
+								<xsl:value-of select="."/>
+			 				</xsl:variable> 
+							 <xsl:for-each select="//country">
+								<xsl:if test="codes[cca3 = $code]">
+			 						<xsl:value-of select="name/common"/>,
+								</xsl:if>
+							</xsl:for-each>
 						</xsl:for-each>
 					</xsl:when>
 
@@ -155,6 +143,7 @@
 
 			</td>
 		</tr>
+		</xsl:if>
 	</xsl:for-each>
-	</xsl:template>
+	</xsl:template> 
 </xsl:stylesheet>
