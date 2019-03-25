@@ -22,9 +22,7 @@
 				Pays avec 6 voisins :
 
 				<xsl:for-each select="//country">
-
 					<xsl:if test="borders[count(neighbour)=6]">
-
 						<xsl:value-of select="name/common"/>,
 					</xsl:if>
 				</xsl:for-each>
@@ -32,7 +30,14 @@
 				<br/>
 				Pays ayant le nom le plus court : //manque la requête
 				<br/>
-				<br/>
+				<br/> 
+				<xsl:for-each select = ".//continent[not(.=preceding::*)]"> <li> <xsl:value-of select = "." /> </li>
+				<xsl:variable name="conti">
+					<xsl:value-of select="//continent"/>
+				</xsl:variable>
+				<xsl:variable name="region">
+					<xsl:value-of select="//subregion"/>
+				</xsl:variable>
 				<table border="3" width="100%" align="center">
 					<tr>
 						<th>N°</th>
@@ -43,9 +48,9 @@
 						<th>Drapeau</th>
 					</tr>
 
-					<xsl:apply-templates select="//country"/>
-
+					<xsl:call-template name= "remplirTab"> </xsl:call-template> 
 				</table>
+				 </xsl:for-each>
 
 			</body>
 		</html>
@@ -60,9 +65,10 @@
 		<hr/>
 	</xsl:template>
 
-	<xsl:template name="lal">
+	<xsl:template match="lal">
+	<h1>Les pays du monde</h1>
 		faire un for each de chaque continent, dedans un for each de chaque sous continent, dedans créer un tableau et appeler un template qui va mettre tous les pays restant dans le tableau
-
+		
 		<xsl:for-each select="infosContinent/continent">
 			<text>Pays du continent :
 			</text>
@@ -74,8 +80,9 @@
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template match="country">
-
+	<xsl:template name ="remplirTab">
+	il faut surement faire un template avec paramètre et mettre le nom de continent en paramètre puis faire une selection sur les pays. 
+		<xsl:for-each select="//country">
 		<tr>
 			<td><xsl:number/></td>
 			<td><xsl:value-of select="name/common"/>
@@ -103,7 +110,7 @@
 					<xsl:when test="borders[count(neighbour)>0]">
 
 						<xsl:for-each select="borders/neighbour">
-
+							
 							<xsl:value-of select="."/>,
 						</xsl:for-each>
 					</xsl:when>
@@ -144,6 +151,6 @@
 
 			</td>
 		</tr>
-
+	</xsl:for-each>
 	</xsl:template>
 </xsl:stylesheet>
