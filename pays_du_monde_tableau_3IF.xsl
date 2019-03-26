@@ -35,8 +35,9 @@
 				<xsl:variable name= "conti"> 
 								<xsl:value-of select="."/>
 			 	</xsl:variable> 
-				 <xsl:for-each select = "//subregion[not(.=preceding::*)]"> 
-				<h4>   <xsl:value-of select = "." />  </h4>
+				 <xsl:for-each select = "//subregion[not(.=preceding::*)]">  
+				 <xsl:if test="//infosContinent[continent = $conti]">
+				 le if marche pas si quelqu'un a une idée comment réparer  
 				<xsl:variable name= "region"> 
 								<xsl:value-of select="."/>
 			 	</xsl:variable>   
@@ -54,8 +55,9 @@
 					<xsl:with-param name= "reg" select = "$region" /> 
 					 </xsl:call-template> 
 				</table> 
+				</xsl:if>
 				 </xsl:for-each>
-				
+				 
 				 </xsl:for-each>
 
 			</body>
@@ -64,8 +66,7 @@
 
 	<xsl:template match="metadonnees">
 		<p style="text-align:center; color:blue;">
-			Objectif :
-
+			Objectif : 
 			<xsl:value-of select="objectif"/>
 		</p>
 		<hr/>
@@ -73,10 +74,14 @@
 
 	<xsl:template name ="remplirTab">
 		<xsl:param name= "contine" select = "//continent" /> 
-		<xsl:param name= "reg" select = "//subregion" />   
+		<xsl:param name= "reg" select = "//subregion" />    
+		<h4>   <xsl:value-of select = '$reg'/> 
+				(<xsl:value-of select = 'count(//infosContinent[subregion = $reg])'/> pays)
+		 </h4>
 		<xsl:for-each select="//country">
 		<xsl:if test="infosContinent[continent = $contine]">
 		<xsl:if test="infosContinent[subregion = $reg]">
+		
 		<tr>
 			<td><xsl:number/></td>
 			<td>
@@ -150,6 +155,6 @@
 		</tr>
 		</xsl:if>
 		</xsl:if>
-	</xsl:for-each>
+	</xsl:for-each> 
 	</xsl:template> 
 </xsl:stylesheet>
