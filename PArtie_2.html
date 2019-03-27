@@ -1,0 +1,334 @@
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>TP 3IF Ajax</title>
+        <meta name="author" content="Elöd EGYED-ZSIGMOND">
+
+        <script type="text/javascript">
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            function recupererPremierEnfantDeTypeNode(n) {
+                var x = n.firstChild;
+                while (x.nodeType != 1) { // Test if x is an element node (and not a text node or other)
+                    x = x.nextSibling;
+                }
+                return x;
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            //change le contenu de l'élement avec l'id "nom" avec la chaine de caractéres en paramètre    
+            function setNom(nom) {
+                var elementHtmlARemplir = window.document.getElementById("id_nom_a_remplacer");
+                elementHtmlARemplir.innerHTML = nom;
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            //charge le fichier XML se trouvant à l'URL relative donné dans le paramètreet le retourne
+            function chargerHttpXML(xmlDocumentUrl) {
+
+                var httpAjax;
+
+                httpAjax = window.XMLHttpRequest ?
+                    new XMLHttpRequest() :
+                    new ActiveXObject('Microsoft.XMLHTTP');
+
+                if (httpAjax.overrideMimeType) {
+                    httpAjax.overrideMimeType('text/xml');
+                }
+
+                //chargement du fichier XML à l'aide de XMLHttpRequest synchrone (le 3° paramètre est défini à false)
+                httpAjax.open('GET', xmlDocumentUrl, false);
+                httpAjax.send();
+
+                return httpAjax.responseXML;
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+            // Charge le fichier JSON se trouvant à l'URL donnée en paramètre et le retourne
+            function chargerHttpJSON(jsonDocumentUrl) {
+
+                var httpAjax;
+
+                httpAjax = window.XMLHttpRequest ?
+                    new XMLHttpRequest() :
+                    new ActiveXObject('Microsoft.XMLHTTP');
+
+                if (httpAjax.overrideMimeType) {
+                    httpAjax.overrideMimeType('text/xml');
+                }
+
+                // chargement du fichier JSON à l'aide de XMLHttpRequest synchrone (le 3° paramètre est défini à false)
+                httpAjax.open('GET', jsonDocumentUrl, false);
+                httpAjax.send();
+
+                var responseData = eval("(" + httpAjax.responseText + ")");
+
+                return responseData;
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            function Bouton2_ajaxBibliographie(xmlDocumentUrl, xslDocumentUrl, newElementName) {
+
+                var xsltProcessor = new XSLTProcessor();
+
+                // Chargement du fichier XSL à l'aide de XMLHttpRequest synchrone 
+                var xslDocument = chargerHttpXML(xslDocumentUrl);
+
+                // Importation du .xsl
+                xsltProcessor.importStylesheet(xslDocument);
+
+                // Chargement du fichier XML à l'aide de XMLHttpRequest synchrone 
+                var xmlDocument = chargerHttpXML(xmlDocumentUrl);
+
+                // Création du document XML transformé par le XSL
+                var newXmlDocument = xsltProcessor.transformToDocument(xmlDocument);
+
+                // Recherche du parent (dont l'id est "here") de l'élément à remplacer dans le document HTML courant
+                var elementHtmlParent = window.document.getElementById("id_element_a_remplacer");
+                // Premier élément fils du parent
+                var elementHtmlARemplacer = recupererPremierEnfantDeTypeNode(elementHtmlParent);
+                // Premier élément "elementName" du nouveau document (par exemple, "ul", "table"...)
+                var elementAInserer = newXmlDocument.getElementsByTagName(newElementName)[0];
+
+                // Remplacement de l'élément
+                elementHtmlParent.replaceChild(elementAInserer, elementHtmlARemplacer);
+
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            function Bouton3_ajaxEmployees(xmlDocumentUrl) {
+
+
+                var xmlDocument = chargerHttpXML(xmlDocumentUrl);
+
+                //extraction des noms à partir du document XML (avec une feuille de style ou en javascript)
+                var lesNoms = xmlDocument.getElementsByTagName("LastName");
+
+                // Parcours de la liste des noms avec une boucle for et 
+                // construction d'une chaine de charactères contenant les noms séparés par des espaces 
+                // Pour avoir la longueur d'une liste : attribut 'length'
+                // Accès au texte d'un noeud "LastName" : NOM_NOEUD.firstChild.nodeValue
+                var chaineDesNoms = [];
+                for (i = 0; i < lesNoms.length; i++) {
+                    chaineDesNoms.push(lesNoms[i].firstChild.nodeValue);
+                }
+
+                return chaineDesNoms;
+                // Appel (ou recopie) de la fonction setNom(...) ou bien autre façon de modifier le texte de l'élément "span"
+                // setNom(chaineDesNoms);
+
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            function Bouton4_ajaxEmployeesTableau(xmlDocumentUrl, xslDocumentUrl) {
+                //commenter la ligne suivante qui affiche la boîte de dialogue!
+                alert("Fonction à compléter...");
+            }
+
+            
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////            PARTIE REALISEE PAR B3149
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+            function Bouton3_pays(xmlDocumentUrl) {
+
+                var xmlDocument = chargerHttpXML(xmlDocumentUrl);
+
+                //extraction des noms à partir du document XML (avec une feuille de style ou en javascript)
+                var lesNoms = xmlDocument.getElementsByTagName("name");
+
+                // Parcours de la liste des noms avec une boucle for et 
+                // construction d'une chaine de charactères contenant les noms séparés par des espaces 
+                // Pour avoir la longueur d'une liste : attribut 'length'
+                // Accès au texte d'un noeud "LastName" : NOM_NOEUD.firstChild.nodeValue
+                var chaineDesNoms = "";
+                
+                var str='';
+
+                for (i = 0; i < lesNoms.length; i++) {
+                    str += '<option value="'+lesNoms[i].getElementsByTagName("common")[0].firstChild.nodeValue + ""+'" />';
+                }
+
+                var my_list=document.getElementById("pays");
+                my_list.innerHTML = str;
+                // Appel (ou recopie) de la fonction setNom(...) ou bien autre façon de modifier le texte de l'élément "span"
+                return chaineDesNoms;
+                // setNom(chaineDesNoms);
+
+            }
+
+        	function changeColor(clicked_id) {
+
+                    if (clicked_id == "myButton4") {
+            	       document.getElementsByTagName("body")[0].style.backgroundColor = 'blue';
+                       document.getElementById("myButton4").style.color = 'white';
+                    }
+                    else if (clicked_id == "myButton5") {
+                       document.getElementsByTagName("body")[0].style.backgroundColor = 'white';
+                       document.getElementById("myButton4").style.color = 'black';
+                    }
+            
+            }
+
+            function bouton3_AJAX (xmlDocumentUrl, xslDocumentUrl, newElementName, nomPays, idRemplacer) {
+
+                var xsltProcessor = new XSLTProcessor();
+
+                // Chargement du fichier XSL à l'aide de XMLHttpRequest synchrone 
+                var xslDocument = chargerHttpXML(xslDocumentUrl);
+
+                // Importation du .xsl
+                xsltProcessor.importStylesheet(xslDocument);
+
+                // Chargement du fichier XML à l'aide de XMLHttpRequest synchrone 
+                var xmlDocument = chargerHttpXML(xmlDocumentUrl);
+
+                // Passe le paramètre pays à la feuille de style XSL
+                xsltProcessor.setParameter('',"paysRecherche",nomPays);
+
+                // Création du document XML transformé par le XSL
+                var newXmlDocument = xsltProcessor.transformToDocument(xmlDocument);
+
+                // Recherche du parent (dont l'id est "here") de l'élément à remplacer dans le document HTML courant
+                var elementHtmlParent = window.document.getElementById(idRemplacer);
+                // Premier élément fils du parent
+                var elementHtmlARemplacer = recupererPremierEnfantDeTypeNode(elementHtmlParent);
+                // Premier élément "elementName" du nouveau document (par exemple, "ul", "table"...)
+                var elementAInserer = newXmlDocument.getElementsByTagName(newElementName)[0];
+
+                // Remplacement de l'élément
+                elementHtmlParent.replaceChild(elementAInserer, elementHtmlARemplacer);
+
+            }
+
+            function viewImage (idRemplacer, nomImage) { 
+                var svgDoc=chargerHttpXML(nomImage)
+                var svgText=new XMLSerializer().serializeToString(svgDoc)
+                document.getElementById(idRemplacer).innerHTML = svgText
+            } 
+
+            function imageClick() { 
+
+                var liste = recupererPremierEnfantDeTypeNode(document.getElementById("lesFormes")).children;
+
+                for (var i = 0 ; i < liste.length ; i++){
+                    liste[i].addEventListener("click",function(){
+                        document.getElementById("id_titre").innerHTML = "L'element est : "+this.getAttribute("title");
+                    })
+                }
+            }
+
+            function mapClick() { 
+
+                var liste = document.getElementById("id_image_map").getElementsByTagName("g")[0].children;
+
+                for (var i = 0 ; i < liste.length ; i++){
+                    liste[i].addEventListener("click",function(){
+                        document.getElementById("id_titre_map").innerHTML = "L'element est : "+this.getAttribute("countryname");
+                    })
+                }
+            }
+
+             function mapMouseHover() { 
+
+                var liste = document.getElementById("id_image_map").getElementsByTagName("path");
+                for (var i = 0 ; i < liste.length ; i++){
+                    liste[i].addEventListener("mouseover",function(){
+                         bouton3_AJAX('countriesTP.xml','cherchePaysPourMap.xsl','ul',this.getAttribute("countryname"),'id_country_map');
+                         this.style.fill='#ff0000';
+                    });
+                    liste[i].addEventListener("mouseleave",function(){
+                         document.getElementById("id_country_map").innerHTML = "<p></p>";
+                         this.style.fill='#cccccc';
+                    });
+
+                }
+            }
+
+
+        </script>
+
+    </head>
+
+    <body>
+        <p>Fichier a modifier/completer</p>
+
+        <p>
+            <input name="buttonEx1" type="button" id="myButton1" onClick="setNom(document.getElementById('myTextEx1').value);" value="1. AJAX simple" />
+            <input name="text" type="text" id="myTextEx1" value="Texte a entrer" />
+            <br />
+            <input name="buttonEx2" type="button" id="myButton2" onClick="Bouton2_ajaxBibliographie('ajax.bib.xml','ajax.bib.xsl','ul');" value="2. AJAX avec ajax.bib.xml/ajax.bib.xsl" />
+            <br />
+            <input name="buttonEx3" type="button" id="myButton3" onClick="Bouton3_ajaxEmployees('Employees.xml');" value="3. AJAX avec Employees.xml" />
+            <br />
+    		<br />
+
+            // Code B3149
+
+    		<br />
+    		<br />
+
+            <input name="button1" type="button" id="myButton4" onClick="changeColor(this.id)" value="1. Modifie couleur" />
+            <br />
+
+            <input name="button2" type="button" id="myButton5" onClick="changeColor(this.id)" value="2. Reinitialise couleur" />
+            <br />
+
+            <input name="button3" type="button" id="myButton6" onClick="bouton3_AJAX('countriesTP.xml','cherchePays.xsl','ul',document.getElementById('myText1').value,'id_element_a_remplacer');" value="3. Chercher pays" />
+
+            <datalist id="pays"> </datalist> 
+            <input name="champSaisi" type="text" id="myText1" value="Pays" list="pays" />
+            <br />
+
+            <div id="id_element_a_remplacer">
+                <p style="color: red; font-weight: bold;">Cet &eacute;l&eacute;ment va &ecirc;tre remplac&eacute; par une bibliographie en XML mise en forme par une feuille de style XSLT...</p>
+            </div>
+
+            <br />
+            <input name="button4" type="button" id="myButton7" onClick="viewImage('id_image','exemple.svg');" value="4. Charge et affiche exemple.svg" />
+            <br />
+            <div id="id_image">
+            </div>
+            <div id="id_titre">
+            </div>
+
+
+            <input name="button5" type="button" id="myButton8" onClick="imageClick();" value="5. Rend les elements du .svg cliquables et affichent leur valeur" />
+            <br />
+
+            <input name="button6" type="button" id="myButton9" onClick="viewImage('id_image_map','worldHigh.svg');" value="6. Charge et affiche worldHigh.svg" />
+            <br />
+            
+            <div id="id_image_map">
+            </div>
+            <div id="id_titre_map">
+            </div>
+            <div id="id_country_map">
+                <p style="color: red; font-weight: bold;">Cet &eacute;l&eacute;ment va &ecirc;tre remplac&eacute; par une bibliographie en XML mise en forme par une feuille de style XSLT...</p>
+            </div>
+
+            <input name="button7" type="button" id="myButton10" onClick="mapClick();" value="7. Rend les pays cliquables et affiche leurs attributs" />
+            <br />
+
+            <input name="button8" type="button" id="myButton11" onClick="mapMouseHover();" value="8. Capter les evenements de passage souris" />
+            <br />
+
+            <input name="button9" type="button" id="myButton12" onClick="Bouton3_pays('countriesTP.xml')" value="9. Completer le champ du bouton 3 avec autocompletion" />
+            <br />
+
+        </p>
+        <div>
+            <p>Les noms sont : <br/>
+                <span id="id_nom_a_remplacer" style="color: red; font-weight: bold;">LES NOMS (Cet &eacute;l&eacute;ment va &ecirc;tre remplac&eacute; par les noms) </span>.</p>
+        </div>
+        <div id="id_element_a_remplacer">
+            <p style="color: red; font-weight: bold;">Cet &eacute;l&eacute;ment va &ecirc;tre remplac&eacute; par une bibliographie en XML mise en forme par une feuille de style XSLT...</p>
+        </div>
+
+    </body>
+
+    </html>
