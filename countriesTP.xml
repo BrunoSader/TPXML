@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="TPSol.xsl"?>
 <countries>
    <metadonnees>
-      <description>Fichier xml contenant des informations sur les pays du monde. 
-		Adapté depuis les données se trouvant sur https://github.com/mledoze/countries 
+      <description>Fichier xml contenant des informations sur les pays du monde.
+		Adapté depuis les données se trouvant sur https://github.com/mledoze/countries
 		</description>
       <cree_le>2019/03/11</cree_le>
-      <objectif>Données pour illuster le TP du module  Données du Web, 3IF, Département Informatique INSA de Lyon</objectif>
+      <objectif>Données pour illuster le TP du module Données du Web, 3IF, Département Informatique INSA de Lyon</objectif>
    </metadonnees>
    <country area="180">
       <name>
@@ -33,11 +33,11 @@
       <capital>Oranjestad</capital>
       <altSpellings>AW</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <nld>Dutch</nld>
@@ -77,11 +77,11 @@
       <altSpellings>AF</altSpellings>
       <altSpellings>Afġānistān</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <prs>Dari</prs>
@@ -123,11 +123,11 @@
       <altSpellings>República de Angola</altSpellings>
       <altSpellings>ʁɛpublika de an'ɡɔla</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -163,11 +163,11 @@
       <capital>The Valley</capital>
       <altSpellings>AI</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -200,11 +200,11 @@
       <altSpellings>Aland</altSpellings>
       <altSpellings>Ahvenanmaa</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <swe>Swedish</swe>
@@ -237,11 +237,11 @@
       <altSpellings>Shqipëria</altSpellings>
       <altSpellings>Shqipnia</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <sqi>Albanian</sqi>
@@ -279,11 +279,11 @@
       <altSpellings>Principality of Andorra</altSpellings>
       <altSpellings>Principat d'Andorra</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <cat>Catalan</cat>
@@ -320,11 +320,11 @@
       <altSpellings>UAE</altSpellings>
       <altSpellings>Emirates</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -364,11 +364,11 @@
       <altSpellings>Argentine Republic</altSpellings>
       <altSpellings>República Argentina</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <grn>Guaraní</grn>
@@ -413,11 +413,11 @@
       <altSpellings>Republic of Armenia</altSpellings>
       <altSpellings>Հայաստանի Հանրապետություն</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <hye>Armenian</hye>
@@ -461,11 +461,11 @@
       <altSpellings>Amelika Sāmoa</altSpellings>
       <altSpellings>Sāmoa Amelika</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -490,9 +490,9 @@
       <capital/>
       <altSpellings>AQ</altSpellings>
       <infosContinent>
-			
+
          <continent/>
-		
+
       </infosContinent>
       <languages/>
       <coordinates lat="-90" long="0"/>
@@ -520,9 +520,9 @@
       <altSpellings>TF</altSpellings>
       <altSpellings>French Southern Territories</altSpellings>
       <infosContinent>
-			
+
          <continent/>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -552,11 +552,11 @@
       <capital>Saint John's</capital>
       <altSpellings>AG</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -586,11 +586,11 @@
       <capital>Canberra</capital>
       <altSpellings>AU</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Australia and New Zealand</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -622,11 +622,11 @@
       <altSpellings>Osterreich</altSpellings>
       <altSpellings>Oesterreich</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Central Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <bar>Austro-Bavarian German</bar>
@@ -672,11 +672,11 @@
       <altSpellings>Republic of Azerbaijan</altSpellings>
       <altSpellings>Azərbaycan Respublikası</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <aze>Azerbaijani</aze>
@@ -721,11 +721,11 @@
       <altSpellings>Republika y'Uburundi</altSpellings>
       <altSpellings>République du Burundi</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -777,11 +777,11 @@
       <altSpellings>Royaume de Belgique</altSpellings>
       <altSpellings>Königreich Belgien</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <deu>German</deu>
@@ -821,11 +821,11 @@
       <altSpellings>Republic of Benin</altSpellings>
       <altSpellings>République du Bénin</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -861,11 +861,11 @@
       <capital>Ouagadougou</capital>
       <altSpellings>BF</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -905,11 +905,11 @@
       <altSpellings>People's Republic of Bangladesh</altSpellings>
       <altSpellings>Gônôprôjatôntri Bangladesh</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ben>Bengali</ben>
@@ -945,11 +945,11 @@
       <altSpellings>Republic of Bulgaria</altSpellings>
       <altSpellings>Република България</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <bul>Bulgarian</bul>
@@ -988,11 +988,11 @@
       <altSpellings>Kingdom of Bahrain</altSpellings>
       <altSpellings>Mamlakat al-Baḥrayn</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -1023,11 +1023,11 @@
       <altSpellings>BS</altSpellings>
       <altSpellings>Commonwealth of the Bahamas</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -1067,11 +1067,11 @@
       <altSpellings>Bosnia-Herzegovina</altSpellings>
       <altSpellings>Босна и Херцеговина</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <bos>Bosnian</bos>
@@ -1111,11 +1111,11 @@
       <altSpellings>Collectivity of Saint Barthélemy</altSpellings>
       <altSpellings>Collectivité de Saint-Barthélemy</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -1153,11 +1153,11 @@
       <altSpellings>Белоруссия</altSpellings>
       <altSpellings>Республика Белоруссия</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <bel>Belarusian</bel>
@@ -1203,11 +1203,11 @@
       <capital>Belmopan</capital>
       <altSpellings>BZ</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Central America</subregion>
-		
+
       </infosContinent>
       <languages>
          <bjz>Belizean Creole</bjz>
@@ -1246,11 +1246,11 @@
       <altSpellings>The Bermudas</altSpellings>
       <altSpellings>Somers Isles</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Northern America</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -1301,11 +1301,11 @@
       <altSpellings>Wuliwya Suyu</altSpellings>
       <altSpellings>Tetã Volívia</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <aym>Aymara</aym>
@@ -1348,11 +1348,11 @@
       <altSpellings>Federative Republic of Brazil</altSpellings>
       <altSpellings>República Federativa do Brasil</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -1394,11 +1394,11 @@
       <capital>Bridgetown</capital>
       <altSpellings>BB</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -1431,11 +1431,11 @@
       <altSpellings>Nation of Brunei</altSpellings>
       <altSpellings>the Abode of Peace</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <msa>Malay</msa>
@@ -1470,11 +1470,11 @@
       <altSpellings>BT</altSpellings>
       <altSpellings>Kingdom of Bhutan</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <dzo>Dzongkha</dzo>
@@ -1509,9 +1509,9 @@
       <altSpellings>Bouvetøya</altSpellings>
       <altSpellings>Bouvet-øya</altSpellings>
       <infosContinent>
-			
+
          <continent/>
-		
+
       </infosContinent>
       <languages>
          <nor>Norwegian</nor>
@@ -1547,11 +1547,11 @@
       <altSpellings>Republic of Botswana</altSpellings>
       <altSpellings>Lefatshe la Botswana</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Southern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -1594,11 +1594,11 @@
       <altSpellings>Central African Republic</altSpellings>
       <altSpellings>République centrafricaine</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -1641,11 +1641,11 @@
       <capital>Ottawa</capital>
       <altSpellings>CA</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Northern America</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -1681,11 +1681,11 @@
       <altSpellings>Territory of the Cocos (Keeling) Islands</altSpellings>
       <altSpellings>Keeling Islands</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Australia and New Zealand</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -1734,11 +1734,11 @@
       <altSpellings>Svizzera</altSpellings>
       <altSpellings>Svizra</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -1781,11 +1781,11 @@
       <altSpellings>Republic of Chile</altSpellings>
       <altSpellings>República de Chile</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -1830,11 +1830,11 @@
       <altSpellings>中华人民共和国</altSpellings>
       <altSpellings>Zhōnghuá Rénmín Gònghéguó</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <zho>Chinese</zho>
@@ -1885,11 +1885,11 @@
       <altSpellings>Republic of Côte d'Ivoire</altSpellings>
       <altSpellings>République de Côte d'Ivoire</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -1932,11 +1932,11 @@
       <altSpellings>Republic of Cameroon</altSpellings>
       <altSpellings>République du Cameroun</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -1995,11 +1995,11 @@
       <altSpellings>Congo, the Democratic Republic of the</altSpellings>
       <altSpellings>DRC</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -2054,11 +2054,11 @@
       <altSpellings>Congo</altSpellings>
       <altSpellings>Congo-Brazzaville</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -2102,11 +2102,11 @@
       <altSpellings>CK</altSpellings>
       <altSpellings>Kūki 'Āirani</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -2139,11 +2139,11 @@
       <altSpellings>Republic of Colombia</altSpellings>
       <altSpellings>República de Colombia</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -2192,11 +2192,11 @@
       <altSpellings>Udzima wa Komori</altSpellings>
       <altSpellings>al-Ittiḥād al-Qumurī</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -2230,11 +2230,11 @@
       <altSpellings>Republic of Cabo Verde</altSpellings>
       <altSpellings>República de Cabo Verde</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -2266,11 +2266,11 @@
       <altSpellings>Republic of Costa Rica</altSpellings>
       <altSpellings>República de Costa Rica</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Central America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -2307,11 +2307,11 @@
       <altSpellings>Republic of Cuba</altSpellings>
       <altSpellings>República de Cuba</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -2354,11 +2354,11 @@
       <altSpellings>Land Curaçao</altSpellings>
       <altSpellings>Pais Kòrsou</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -2391,11 +2391,11 @@
       <altSpellings>CX</altSpellings>
       <altSpellings>Territory of Christmas Island</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Australia and New Zealand</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -2425,11 +2425,11 @@
       <capital>George Town</capital>
       <altSpellings>KY</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -2468,11 +2468,11 @@
       <altSpellings>Κυπριακή Δημοκρατία</altSpellings>
       <altSpellings>Kıbrıs Cumhuriyeti</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <ell>Greek</ell>
@@ -2512,11 +2512,11 @@
       <altSpellings>Česká republika</altSpellings>
       <altSpellings>Česko</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Central Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <ces>Czech</ces>
@@ -2555,11 +2555,11 @@
       <altSpellings>Federal Republic of Germany</altSpellings>
       <altSpellings>Bundesrepublik Deutschland</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <deu>German</deu>
@@ -2610,11 +2610,11 @@
       <altSpellings>Gabuutih Ummuuno</altSpellings>
       <altSpellings>Jamhuuriyadda Jabuuti</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -2653,11 +2653,11 @@
       <altSpellings>Wai‘tu kubuli</altSpellings>
       <altSpellings>Commonwealth of Dominica</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -2690,11 +2690,11 @@
       <altSpellings>Kingdom of Denmark</altSpellings>
       <altSpellings>Kongeriget Danmark</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <dan>Danish</dan>
@@ -2729,11 +2729,11 @@
       <capital>Santo Domingo</capital>
       <altSpellings>DO</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -2769,11 +2769,11 @@
       <altSpellings>Dzayer</altSpellings>
       <altSpellings>Algérie</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Northern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -2814,11 +2814,11 @@
       <altSpellings>Republic of Ecuador</altSpellings>
       <altSpellings>República del Ecuador</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -2854,11 +2854,11 @@
       <altSpellings>EG</altSpellings>
       <altSpellings>Arab Republic of Egypt</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Northern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -2906,11 +2906,11 @@
       <altSpellings>ʾErtrā</altSpellings>
       <altSpellings>Iritriyā</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -2958,11 +2958,11 @@
       <altSpellings>EH</altSpellings>
       <altSpellings>Taneẓroft Tutrimt</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Northern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ber>Berber</ber>
@@ -3017,11 +3017,11 @@
       <altSpellings>Kingdom of Spain</altSpellings>
       <altSpellings>Reino de España</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <cat>Catalan</cat>
@@ -3065,11 +3065,11 @@
       <altSpellings>Republic of Estonia</altSpellings>
       <altSpellings>Eesti Vabariik</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <est>Estonian</est>
@@ -3106,11 +3106,11 @@
       <altSpellings>Federal Democratic Republic of Ethiopia</altSpellings>
       <altSpellings>የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <amh>Amharic</amh>
@@ -3156,11 +3156,11 @@
       <altSpellings>Suomen tasavalta</altSpellings>
       <altSpellings>Republiken Finland</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <fin>Finnish</fin>
@@ -3208,11 +3208,11 @@
       <altSpellings>Matanitu ko Viti</altSpellings>
       <altSpellings>Fijī Gaṇarājya</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Melanesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3246,11 +3246,11 @@
       <altSpellings>Islas Malvinas</altSpellings>
       <altSpellings>Falkland Islands (Malvinas)</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3282,11 +3282,11 @@
       <altSpellings>French Republic</altSpellings>
       <altSpellings>République française</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -3332,11 +3332,11 @@
       <altSpellings>Føroyar</altSpellings>
       <altSpellings>Færøerne</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <dan>Danish</dan>
@@ -3369,11 +3369,11 @@
       <altSpellings>Federated States of Micronesia</altSpellings>
       <altSpellings>Micronesia, Federated States of</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Micronesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3405,11 +3405,11 @@
       <altSpellings>Gabonese Republic</altSpellings>
       <altSpellings>République Gabonaise</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -3446,11 +3446,11 @@
       <altSpellings>UK</altSpellings>
       <altSpellings>Great Britain</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3484,11 +3484,11 @@
       <altSpellings>GE</altSpellings>
       <altSpellings>Sakartvelo</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <kat>Georgian</kat>
@@ -3534,11 +3534,11 @@
       <altSpellings>Bailiwick of Guernsey</altSpellings>
       <altSpellings>Bailliage de Guernesey</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3570,11 +3570,11 @@
       <capital>Accra</capital>
       <altSpellings>GH</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3609,11 +3609,11 @@
       <capital>Gibraltar</capital>
       <altSpellings>GI</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3648,11 +3648,11 @@
       <altSpellings>Republic of Guinea</altSpellings>
       <altSpellings>République de Guinée</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -3691,11 +3691,11 @@
       <altSpellings>GP</altSpellings>
       <altSpellings>Gwadloup</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -3726,11 +3726,11 @@
       <altSpellings>GM</altSpellings>
       <altSpellings>Republic of the Gambia</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3765,11 +3765,11 @@
       <altSpellings>Republic of Guinea-Bissau</altSpellings>
       <altSpellings>República da Guiné-Bissau</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -3815,11 +3815,11 @@
       <altSpellings>République de Guinée équatoriale</altSpellings>
       <altSpellings>República da Guiné Equatorial</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -3858,11 +3858,11 @@
       <altSpellings>Hellenic Republic</altSpellings>
       <altSpellings>Ελληνική Δημοκρατία</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <ell>Greek</ell>
@@ -3898,11 +3898,11 @@
       <capital>St. George's</capital>
       <altSpellings>GD</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -3933,11 +3933,11 @@
       <altSpellings>GL</altSpellings>
       <altSpellings>Grønland</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Northern America</subregion>
-		
+
       </infosContinent>
       <languages>
          <kal>Greenlandic</kal>
@@ -3967,11 +3967,11 @@
       <capital>Guatemala City</capital>
       <altSpellings>GT</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Central America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -4009,11 +4009,11 @@
       <altSpellings>Guiana</altSpellings>
       <altSpellings>Guyane</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -4056,11 +4056,11 @@
       <altSpellings>GU</altSpellings>
       <altSpellings>Guåhån</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Micronesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <cha>Chamorro</cha>
@@ -4093,11 +4093,11 @@
       <altSpellings>GY</altSpellings>
       <altSpellings>Co-operative Republic of Guyana</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4137,11 +4137,11 @@
       <capital>City of Victoria</capital>
       <altSpellings>HK</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4176,9 +4176,9 @@
       <altSpellings>HM</altSpellings>
       <altSpellings>Heard Island and McDonald Islands</altSpellings>
       <infosContinent>
-			
+
          <continent/>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4210,11 +4210,11 @@
       <altSpellings>Republic of Honduras</altSpellings>
       <altSpellings>República de Honduras</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Central America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -4252,11 +4252,11 @@
       <altSpellings>Republic of Croatia</altSpellings>
       <altSpellings>Republika Hrvatska</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <hrv>Croatian</hrv>
@@ -4301,11 +4301,11 @@
       <altSpellings>République d'Haïti</altSpellings>
       <altSpellings>Repiblik Ayiti</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -4339,11 +4339,11 @@
       <capital>Budapest</capital>
       <altSpellings>HU</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Central Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <hun>Hungarian</hun>
@@ -4384,11 +4384,11 @@
       <altSpellings>Republic of Indonesia</altSpellings>
       <altSpellings>Republik Indonesia</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ind>Indonesian</ind>
@@ -4430,11 +4430,11 @@
       <altSpellings>Mann</altSpellings>
       <altSpellings>Mannin</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4477,11 +4477,11 @@
       <altSpellings>Bharat Ganrajya</altSpellings>
       <altSpellings>இந்தியா</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4523,11 +4523,11 @@
       <capital>Diego Garcia</capital>
       <altSpellings>IO</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4564,11 +4564,11 @@
       <altSpellings>Republic of Ireland</altSpellings>
       <altSpellings>Poblacht na hÉireann</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4606,11 +4606,11 @@
       <altSpellings>Iran, Islamic Republic of</altSpellings>
       <altSpellings>Jomhuri-ye Eslāmi-ye Irān</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <fas>Persian</fas>
@@ -4659,11 +4659,11 @@
       <altSpellings>Republic of Iraq</altSpellings>
       <altSpellings>Jumhūriyyat al-‘Irāq</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -4706,11 +4706,11 @@
       <altSpellings>Republic of Iceland</altSpellings>
       <altSpellings>Lýðveldið Ísland</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <isl>Icelandic</isl>
@@ -4746,11 +4746,11 @@
       <altSpellings>State of Israel</altSpellings>
       <altSpellings>Medīnat Yisrā'el</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -4797,11 +4797,11 @@
       <altSpellings>Italian Republic</altSpellings>
       <altSpellings>Repubblica italiana</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <bar>Austro-Bavarian German</bar>
@@ -4845,11 +4845,11 @@
       <capital>Kingston</capital>
       <altSpellings>JM</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4891,11 +4891,11 @@
       <altSpellings>Bailliage de Jersey</altSpellings>
       <altSpellings>Bailliage dé Jèrri</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -4930,11 +4930,11 @@
       <altSpellings>Hashemite Kingdom of Jordan</altSpellings>
       <altSpellings>al-Mamlakah al-Urdunīyah al-Hāshimīyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -4973,11 +4973,11 @@
       <altSpellings>Nippon</altSpellings>
       <altSpellings>Nihon</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <jpn>Japanese</jpn>
@@ -5020,11 +5020,11 @@
       <altSpellings>Республика Казахстан</altSpellings>
       <altSpellings>Respublika Kazakhstan</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Central Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <kaz>Kazakh</kaz>
@@ -5068,11 +5068,11 @@
       <altSpellings>Republic of Kenya</altSpellings>
       <altSpellings>Jamhuri ya Kenya</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -5118,11 +5118,11 @@
       <altSpellings>Кыргыз Республикасы</altSpellings>
       <altSpellings>Kyrgyz Respublikasy</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Central Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <kir>Kyrgyz</kir>
@@ -5160,11 +5160,11 @@
       <altSpellings>KH</altSpellings>
       <altSpellings>Kingdom of Cambodia</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <khm>Khmer</khm>
@@ -5205,11 +5205,11 @@
       <altSpellings>Republic of Kiribati</altSpellings>
       <altSpellings>Ribaberiki Kiribati</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Micronesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -5241,11 +5241,11 @@
       <altSpellings>KN</altSpellings>
       <altSpellings>Federation of Saint Christopher and Nevis</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -5278,11 +5278,11 @@
       <altSpellings>Korea, Republic of</altSpellings>
       <altSpellings>Republic of Korea</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <kor>Korean</kor>
@@ -5319,11 +5319,11 @@
       <altSpellings>XK</altSpellings>
       <altSpellings>Република Косово</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <sqi>Albanian</sqi>
@@ -5362,11 +5362,11 @@
       <altSpellings>State of Kuwait</altSpellings>
       <altSpellings>Dawlat al-Kuwait</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -5403,11 +5403,11 @@
       <altSpellings>Lao People's Democratic Republic</altSpellings>
       <altSpellings>Sathalanalat Paxathipatai Paxaxon Lao</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <lao>Lao</lao>
@@ -5450,11 +5450,11 @@
       <altSpellings>Lebanese Republic</altSpellings>
       <altSpellings>Al-Jumhūrīyah Al-Libnānīyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -5490,11 +5490,11 @@
       <altSpellings>LR</altSpellings>
       <altSpellings>Republic of Liberia</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -5531,11 +5531,11 @@
       <altSpellings>State of Libya</altSpellings>
       <altSpellings>Dawlat Libya</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Northern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -5573,11 +5573,11 @@
       <capital>Castries</capital>
       <altSpellings>LC</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -5609,11 +5609,11 @@
       <altSpellings>Principality of Liechtenstein</altSpellings>
       <altSpellings>Fürstentum Liechtenstein</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <deu>German</deu>
@@ -5655,11 +5655,11 @@
       <altSpellings>ilaṅkai</altSpellings>
       <altSpellings>Democratic Socialist Republic of Sri Lanka</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <sin>Sinhala</sin>
@@ -5700,11 +5700,11 @@
       <altSpellings>Kingdom of Lesotho</altSpellings>
       <altSpellings>Muso oa Lesotho</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Southern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -5740,11 +5740,11 @@
       <altSpellings>Republic of Lithuania</altSpellings>
       <altSpellings>Lietuvos Respublika</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <lit>Lithuanian</lit>
@@ -5792,11 +5792,11 @@
       <altSpellings>Großherzogtum Luxemburg</altSpellings>
       <altSpellings>Groussherzogtum Lëtzebuerg</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <deu>German</deu>
@@ -5835,11 +5835,11 @@
       <altSpellings>Republic of Latvia</altSpellings>
       <altSpellings>Latvijas Republika</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <lav>Latvian</lav>
@@ -5884,11 +5884,11 @@
       <altSpellings>中華人民共和國澳門特別行政區</altSpellings>
       <altSpellings>Região Administrativa Especial de Macau da República Popular da China</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -5926,11 +5926,11 @@
       <altSpellings>Collectivité de Saint-Martin</altSpellings>
       <altSpellings>Saint Martin (French part)</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -5970,11 +5970,11 @@
       <altSpellings>Kingdom of Morocco</altSpellings>
       <altSpellings>Al-Mamlakah al-Maġribiyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Northern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -6012,11 +6012,11 @@
       <altSpellings>Principality of Monaco</altSpellings>
       <altSpellings>Principauté de Monaco</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -6052,11 +6052,11 @@
       <altSpellings>Republic of Moldova</altSpellings>
       <altSpellings>Republica Moldova</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <ron>Moldavian</ron>
@@ -6097,11 +6097,11 @@
       <altSpellings>Repoblikan'i Madagasikara</altSpellings>
       <altSpellings>République de Madagascar</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -6135,11 +6135,11 @@
       <altSpellings>Republic of the Maldives</altSpellings>
       <altSpellings>Dhivehi Raajjeyge Jumhooriyya</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <div>Maldivian</div>
@@ -6172,11 +6172,11 @@
       <altSpellings>United Mexican States</altSpellings>
       <altSpellings>Estados Unidos Mexicanos</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Northern America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -6217,11 +6217,11 @@
       <altSpellings>Republic of the Marshall Islands</altSpellings>
       <altSpellings>Aolepān Aorōkin M̧ajeļ</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Micronesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -6255,11 +6255,11 @@
       <altSpellings>Republic of Macedonia</altSpellings>
       <altSpellings>Република Македонија</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <mkd>Macedonian</mkd>
@@ -6298,11 +6298,11 @@
       <altSpellings>Republic of Mali</altSpellings>
       <altSpellings>République du Mali</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -6347,11 +6347,11 @@
       <altSpellings>Republic of Malta</altSpellings>
       <altSpellings>Repubblika ta' Malta</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -6385,11 +6385,11 @@
       <altSpellings>Republic of the Union of Myanmar</altSpellings>
       <altSpellings>Pyidaunzu Thanmăda Myăma Nainngandaw</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <mya>Burmese</mya>
@@ -6427,11 +6427,11 @@
       <altSpellings>ME</altSpellings>
       <altSpellings>Crna Gora</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <srp>Montenegrin</srp>
@@ -6468,11 +6468,11 @@
       <capital>Ulan Bator</capital>
       <altSpellings>MN</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <mon>Mongolian</mon>
@@ -6516,11 +6516,11 @@
       <altSpellings>Commonwealth of the Northern Mariana Islands</altSpellings>
       <altSpellings>Sankattan Siha Na Islas Mariånas</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Micronesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <cal>Carolinian</cal>
@@ -6554,11 +6554,11 @@
       <altSpellings>Republic of Mozambique</altSpellings>
       <altSpellings>República de Moçambique</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -6598,11 +6598,11 @@
       <altSpellings>Islamic Republic of Mauritania</altSpellings>
       <altSpellings>al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -6638,11 +6638,11 @@
       <capital>Plymouth</capital>
       <altSpellings>MS</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -6672,11 +6672,11 @@
       <capital>Fort-de-France</capital>
       <altSpellings>MQ</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -6716,11 +6716,11 @@
       <altSpellings>Republic of Mauritius</altSpellings>
       <altSpellings>République de Maurice</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -6757,11 +6757,11 @@
       <altSpellings>MW</altSpellings>
       <altSpellings>Republic of Malawi</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -6801,11 +6801,11 @@
       <capital>Kuala Lumpur</capital>
       <altSpellings>MY</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -6843,11 +6843,11 @@
       <altSpellings>Department of Mayotte</altSpellings>
       <altSpellings>Département de Mayotte</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -6912,11 +6912,11 @@
       <altSpellings>Namibië</altSpellings>
       <altSpellings>Republic of Namibia</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Southern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <afr>Afrikaans</afr>
@@ -6960,11 +6960,11 @@
       <capital>Nouméa</capital>
       <altSpellings>NC</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Melanesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -6995,11 +6995,11 @@
       <altSpellings>NE</altSpellings>
       <altSpellings>Nijar</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -7044,11 +7044,11 @@
       <altSpellings>Territory of Norfolk Island</altSpellings>
       <altSpellings>Teratri of Norf'k Ailen</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Australia and New Zealand</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7082,11 +7082,11 @@
       <altSpellings>Naíjíríà</altSpellings>
       <altSpellings>Federal Republic of Nigeria</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7124,11 +7124,11 @@
       <altSpellings>Republic of Nicaragua</altSpellings>
       <altSpellings>República de Nicaragua</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Central America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -7166,11 +7166,11 @@
       <capital>Alofi</capital>
       <altSpellings>NU</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7203,11 +7203,11 @@
       <altSpellings>Holland</altSpellings>
       <altSpellings>Nederland</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Western Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <nld>Dutch</nld>
@@ -7254,11 +7254,11 @@
       <altSpellings>Kongeriket Norge</altSpellings>
       <altSpellings>Kongeriket Noreg</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <nno>Norwegian Nynorsk</nno>
@@ -7297,11 +7297,11 @@
       <altSpellings>Federal Democratic Republic of Nepal</altSpellings>
       <altSpellings>Loktāntrik Ganatantra Nepāl</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <nep>Nepali</nep>
@@ -7343,11 +7343,11 @@
       <altSpellings>Republic of Nauru</altSpellings>
       <altSpellings>Ripublik Naoero</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Micronesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7387,11 +7387,11 @@
       <altSpellings>NZ</altSpellings>
       <altSpellings>Aotearoa</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Australia and New Zealand</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7425,11 +7425,11 @@
       <altSpellings>Sultanate of Oman</altSpellings>
       <altSpellings>Salṭanat ʻUmān</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -7471,11 +7471,11 @@
       <altSpellings>Islamic Republic of Pakistan</altSpellings>
       <altSpellings>Islāmī Jumhūriya'eh Pākistān</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Southern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7515,11 +7515,11 @@
       <altSpellings>Republic of Panama</altSpellings>
       <altSpellings>República de Panamá</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Central America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -7555,11 +7555,11 @@
       <altSpellings>Pitcairn</altSpellings>
       <altSpellings>Pitcairn Henderson Ducie and Oeno Islands</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7599,11 +7599,11 @@
       <altSpellings>Republic of Peru</altSpellings>
       <altSpellings>República del Perú</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <aym>Aymara</aym>
@@ -7648,11 +7648,11 @@
       <altSpellings>Republic of the Philippines</altSpellings>
       <altSpellings>Repúblika ng Pilipinas</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7689,11 +7689,11 @@
       <altSpellings>Republic of Palau</altSpellings>
       <altSpellings>Beluu er a Belau</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Micronesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7734,11 +7734,11 @@
       <altSpellings>Independent State of Papua New Guinea</altSpellings>
       <altSpellings>Independen Stet bilong Papua Niugini</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Melanesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7775,11 +7775,11 @@
       <altSpellings>Republic of Poland</altSpellings>
       <altSpellings>Rzeczpospolita Polska</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Central Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <pol>Polish</pol>
@@ -7825,11 +7825,11 @@
       <altSpellings>Commonwealth of Puerto Rico</altSpellings>
       <altSpellings>Estado Libre Asociado de Puerto Rico</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -7864,11 +7864,11 @@
       <altSpellings>Chosŏn Minjujuŭi Inmin Konghwaguk</altSpellings>
       <altSpellings>Korea, Democratic People's Republic of</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <kor>Korean</kor>
@@ -7906,11 +7906,11 @@
       <altSpellings>Portuguese Republic</altSpellings>
       <altSpellings>República Portuguesa</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -7950,11 +7950,11 @@
       <altSpellings>República del Paraguay</altSpellings>
       <altSpellings>Tetã Paraguái</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <grn>Guaraní</grn>
@@ -7994,11 +7994,11 @@
       <altSpellings>State of Palestine</altSpellings>
       <altSpellings>Dawlat Filasṭin</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -8036,11 +8036,11 @@
       <altSpellings>French Polynesia</altSpellings>
       <altSpellings>Pōrīnetia Farāni</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -8073,11 +8073,11 @@
       <altSpellings>State of Qatar</altSpellings>
       <altSpellings>Dawlat Qaṭar</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -8111,11 +8111,11 @@
       <altSpellings>RE</altSpellings>
       <altSpellings>Reunion</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -8148,11 +8148,11 @@
       <altSpellings>Roumania</altSpellings>
       <altSpellings>România</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <ron>Romanian</ron>
@@ -8195,11 +8195,11 @@
       <altSpellings>Российская Федерация</altSpellings>
       <altSpellings>Rossiyskaya Federatsiya</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <rus>Russian</rus>
@@ -8256,11 +8256,11 @@
       <altSpellings>Repubulika y'u Rwanda</altSpellings>
       <altSpellings>République du Rwanda</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -8302,11 +8302,11 @@
       <altSpellings>Kingdom of Saudi Arabia</altSpellings>
       <altSpellings>Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -8351,11 +8351,11 @@
       <altSpellings>Republic of the Sudan</altSpellings>
       <altSpellings>Jumhūrīyat as-Sūdān</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Northern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -8397,11 +8397,11 @@
       <altSpellings>Republic of Senegal</altSpellings>
       <altSpellings>République du Sénégal</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -8455,11 +8455,11 @@
       <altSpellings>Republik Singapura</altSpellings>
       <altSpellings>新加坡共和国</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <zho>Chinese</zho>
@@ -8493,11 +8493,11 @@
       <altSpellings>GS</altSpellings>
       <altSpellings>South Georgia and the South Sandwich Islands</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -8528,11 +8528,11 @@
       <altSpellings>SJ</altSpellings>
       <altSpellings>Svalbard and Jan Mayen Islands</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <nor>Norwegian</nor>
@@ -8562,11 +8562,11 @@
       <capital>Honiara</capital>
       <altSpellings>SB</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Melanesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -8597,11 +8597,11 @@
       <altSpellings>SL</altSpellings>
       <altSpellings>Republic of Sierra Leone</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -8638,11 +8638,11 @@
       <altSpellings>Republic of El Salvador</altSpellings>
       <altSpellings>República de El Salvador</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Central America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -8678,11 +8678,11 @@
       <altSpellings>Republic of San Marino</altSpellings>
       <altSpellings>Repubblica di San Marino</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <ita>Italian</ita>
@@ -8723,11 +8723,11 @@
       <altSpellings>Jamhuuriyadda Federaalka Soomaaliya</altSpellings>
       <altSpellings>Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -8764,11 +8764,11 @@
       <altSpellings>PM</altSpellings>
       <altSpellings>Collectivité territoriale de Saint-Pierre-et-Miquelon</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Northern America</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -8803,11 +8803,11 @@
       <altSpellings>Република Србија</altSpellings>
       <altSpellings>Republika Srbija</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <srp>Serbian</srp>
@@ -8847,11 +8847,11 @@
       <capital>Juba</capital>
       <altSpellings>SS</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -8892,11 +8892,11 @@
       <altSpellings>Sao Tome and Principe</altSpellings>
       <altSpellings>República Democrática de São Tomé e Príncipe</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -8930,11 +8930,11 @@
       <altSpellings>Republic of Suriname</altSpellings>
       <altSpellings>Republiek Suriname</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <nld>Dutch</nld>
@@ -8971,11 +8971,11 @@
       <altSpellings>Slovak Republic</altSpellings>
       <altSpellings>Slovenská republika</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Central Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <slk>Slovak</slk>
@@ -9014,11 +9014,11 @@
       <altSpellings>Republic of Slovenia</altSpellings>
       <altSpellings>Republika Slovenija</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <slv>Slovene</slv>
@@ -9056,11 +9056,11 @@
       <altSpellings>Kingdom of Sweden</altSpellings>
       <altSpellings>Konungariket Sverige</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Northern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <swe>Swedish</swe>
@@ -9103,11 +9103,11 @@
       <altSpellings>Kingdom of Swaziland</altSpellings>
       <altSpellings>Umbuso waseSwatini</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Southern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9151,11 +9151,11 @@
       <altSpellings>SX</altSpellings>
       <altSpellings>Sint Maarten (Dutch part)</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9201,11 +9201,11 @@
       <altSpellings>Repiblik Sesel</altSpellings>
       <altSpellings>République des Seychelles</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <crs>Seychellois Creole</crs>
@@ -9240,11 +9240,11 @@
       <altSpellings>Syrian Arab Republic</altSpellings>
       <altSpellings>Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -9281,11 +9281,11 @@
       <capital>Cockburn Town</capital>
       <altSpellings>TC</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9322,11 +9322,11 @@
       <altSpellings>Republic of Chad</altSpellings>
       <altSpellings>République du Tchad</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Middle Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -9368,11 +9368,11 @@
       <altSpellings>Togolese Republic</altSpellings>
       <altSpellings>République Togolaise</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Western Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -9413,11 +9413,11 @@
       <altSpellings>ราชอาณาจักรไทย</altSpellings>
       <altSpellings>Ratcha Anachak Thai</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <tha>Thai</tha>
@@ -9461,11 +9461,11 @@
       <altSpellings>Ҷумҳурии Тоҷикистон</altSpellings>
       <altSpellings>Çumhuriyi Toçikiston</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Central Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <rus>Russian</rus>
@@ -9510,11 +9510,11 @@
       <capital>Fakaofo</capital>
       <altSpellings>TK</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9550,11 +9550,11 @@
       <capital>Ashgabat</capital>
       <altSpellings>TM</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Central Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <rus>Russian</rus>
@@ -9601,11 +9601,11 @@
       <altSpellings>Timór Lorosa'e</altSpellings>
       <altSpellings>Timor Lorosae</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <por>Portuguese</por>
@@ -9643,11 +9643,11 @@
       <capital>Nuku'alofa</capital>
       <altSpellings>TO</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9679,11 +9679,11 @@
       <altSpellings>TT</altSpellings>
       <altSpellings>Republic of Trinidad and Tobago</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9715,11 +9715,11 @@
       <altSpellings>Republic of Tunisia</altSpellings>
       <altSpellings>al-Jumhūriyyah at-Tūnisiyyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Northern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -9756,11 +9756,11 @@
       <altSpellings>Republic of Turkey</altSpellings>
       <altSpellings>Türkiye Cumhuriyeti</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <tur>Turkish</tur>
@@ -9804,11 +9804,11 @@
       <capital>Funafuti</capital>
       <altSpellings>TV</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9847,11 +9847,11 @@
       <altSpellings>Chinese Taipei for IOC</altSpellings>
       <altSpellings>Taiwan, Province of China</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <zho>Chinese</zho>
@@ -9888,11 +9888,11 @@
       <altSpellings>United Republic of Tanzania</altSpellings>
       <altSpellings>Jamhuri ya Muungano wa Tanzania</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9939,11 +9939,11 @@
       <altSpellings>Republic of Uganda</altSpellings>
       <altSpellings>Jamhuri ya Uganda</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -9987,11 +9987,11 @@
       <altSpellings>UA</altSpellings>
       <altSpellings>Ukrayina</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Eastern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <rus>Russian</rus>
@@ -10030,11 +10030,11 @@
       <capital/>
       <altSpellings>UM</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Northern America</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -10066,11 +10066,11 @@
       <altSpellings>Oriental Republic of Uruguay</altSpellings>
       <altSpellings>República Oriental del Uruguay</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -10108,11 +10108,11 @@
       <altSpellings>USA</altSpellings>
       <altSpellings>United States of America</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Northern America</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -10153,11 +10153,11 @@
       <altSpellings>O‘zbekiston Respublikasi</altSpellings>
       <altSpellings>Ўзбекистон Республикаси</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Central Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <rus>Russian</rus>
@@ -10203,11 +10203,11 @@
       <altSpellings>Vatican City State</altSpellings>
       <altSpellings>Stato della Città del Vaticano</altSpellings>
       <infosContinent>
-			
+
          <continent>Europe</continent>
-			
+
          <subregion>Southern Europe</subregion>
-		
+
       </infosContinent>
       <languages>
          <ita>Italian</ita>
@@ -10241,11 +10241,11 @@
       <capital>Kingstown</capital>
       <altSpellings>VC</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -10278,11 +10278,11 @@
       <altSpellings>Venezuela, Bolivarian Republic of</altSpellings>
       <altSpellings>República Bolivariana de Venezuela</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>South America</subregion>
-		
+
       </infosContinent>
       <languages>
          <spa>Spanish</spa>
@@ -10318,11 +10318,11 @@
       <altSpellings>VG</altSpellings>
       <altSpellings>Virgin Islands, British</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -10353,11 +10353,11 @@
       <altSpellings>VI</altSpellings>
       <altSpellings>Virgin Islands, U.S.</altSpellings>
       <infosContinent>
-			
+
          <continent>Americas</continent>
-			
+
          <subregion>Caribbean</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -10390,11 +10390,11 @@
       <altSpellings>Cộng hòa Xã hội chủ nghĩa Việt Nam</altSpellings>
       <altSpellings>Viet Nam</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>South-Eastern Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <vie>Vietnamese</vie>
@@ -10440,11 +10440,11 @@
       <altSpellings>Ripablik blong Vanuatu</altSpellings>
       <altSpellings>République de Vanuatu</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Melanesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <bis>Bislama</bis>
@@ -10478,11 +10478,11 @@
       <altSpellings>Territory of the Wallis and Futuna Islands</altSpellings>
       <altSpellings>Territoire des îles Wallis et Futuna</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <fra>French</fra>
@@ -10518,11 +10518,11 @@
       <altSpellings>Independent State of Samoa</altSpellings>
       <altSpellings>Malo Saʻoloto Tutoʻatasi o Sāmoa</altSpellings>
       <infosContinent>
-			
+
          <continent>Oceania</continent>
-			
+
          <subregion>Polynesia</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -10555,11 +10555,11 @@
       <altSpellings>Yemeni Republic</altSpellings>
       <altSpellings>al-Jumhūriyyah al-Yamaniyyah</altSpellings>
       <infosContinent>
-			
+
          <continent>Asia</continent>
-			
+
          <subregion>Western Asia</subregion>
-		
+
       </infosContinent>
       <languages>
          <ara>Arabic</ara>
@@ -10636,11 +10636,11 @@
       <altSpellings>Suid-Afrika</altSpellings>
       <altSpellings>Republic of South Africa</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Southern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <afr>Afrikaans</afr>
@@ -10689,11 +10689,11 @@
       <altSpellings>ZM</altSpellings>
       <altSpellings>Republic of Zambia</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <eng>English</eng>
@@ -10790,11 +10790,11 @@
       <altSpellings>ZW</altSpellings>
       <altSpellings>Republic of Zimbabwe</altSpellings>
       <infosContinent>
-			
+
          <continent>Africa</continent>
-			
+
          <subregion>Eastern Africa</subregion>
-		
+
       </infosContinent>
       <languages>
          <bwg>Chibarwe</bwg>
