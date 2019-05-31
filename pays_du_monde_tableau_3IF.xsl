@@ -19,9 +19,12 @@
 
 				<xsl:apply-templates select="//metadonnees"/>
 				<br/>
-				Pays avec 6 voisins : 
+				Pays avec 6 voisins :
+
 				<xsl:for-each select="//country">
+
 					<xsl:if test="borders[count(neighbour)=6]">
+
 						<xsl:value-of select="name/common"/>,
 					</xsl:if>
 				</xsl:for-each>
@@ -29,36 +32,53 @@
 				<br/>
 				Pays ayant le nom le plus court : //manque la requête
 				<br/>
-				<br/> 
-				<xsl:for-each select = "//continent[not(.=preceding::*)]"> 
-				<h3> Pays du continent : <xsl:value-of select = "." /> par sous-régions :</h3>
-				<xsl:variable name= "conti"> 
+				<br/>
+				<hr/>
+
+				<xsl:for-each select="//continent[not(.=preceding::*)]">
+					<h3>
+						Pays du continent :
+
+						<xsl:value-of select="."/>
+						par sous-régions :</h3>
+
+					<xsl:variable name="conti">
+						<xsl:value-of select="."/>
+					</xsl:variable>
+
+					<xsl:for-each select="//subregion[not(.=preceding::*)]">
+
+						<xsl:if test="../../infosContinent[continent = $conti]">
+
+							<xsl:variable name="region">
 								<xsl:value-of select="."/>
-			 	</xsl:variable> 
-				 <xsl:for-each select = "//subregion[not(.=preceding::*)]">  
-				 <xsl:if test="//infosContinent[continent = $conti]">
-				 le if marche pas si quelqu'un a une idée comment réparer  
-				<xsl:variable name= "region"> 
-								<xsl:value-of select="."/>
-			 	</xsl:variable>   
-				<table border="3" width="100%" align="center">
-					<tr>
-						<th>N°</th>
-						<th>Nom</th>
-						<th>Capitale</th>
-						<th>Voisins</th>
-						<th>Coordonnées</th>
-						<th>Drapeau</th>
-					</tr>
-					<xsl:call-template name= "remplirTab">
-					<xsl:with-param name= "contine" select = "$conti" />
-					<xsl:with-param name= "reg" select = "$region" /> 
-					 </xsl:call-template> 
-				</table> 
-				</xsl:if>
-				 </xsl:for-each>
-				 
-				 </xsl:for-each>
+							</xsl:variable>
+							<h4>
+								<xsl:value-of select="$region"/>
+								(<xsl:value-of select="count(//infosContinent[subregion = $region])"/>
+								pays)
+							</h4>
+							<table border="3" width="100%" align="center">
+								<tr>
+									<th>N°</th>
+									<th>Nom</th>
+									<th>Capitale</th>
+									<th>Voisins</th>
+									<th>Coordonnées</th>
+									<th>Drapeau</th>
+								</tr>
+
+								<xsl:call-template name="remplirTab">
+
+									<xsl:with-param name="contine" select="$conti"/>
+
+									<xsl:with-param name="reg" select="$region"/>
+								</xsl:call-template>
+							</table>
+						</xsl:if>
+					</xsl:for-each>
+
+				</xsl:for-each>
 
 			</body>
 		</html>
@@ -66,95 +86,96 @@
 
 	<xsl:template match="metadonnees">
 		<p style="text-align:center; color:blue;">
-			Objectif : 
+			Objectif :
+
 			<xsl:value-of select="objectif"/>
 		</p>
 		<hr/>
-	</xsl:template> 
+		<hr/>
+	</xsl:template>
 
-	<xsl:template name ="remplirTab">
-		<xsl:param name= "contine" select = "//continent" /> 
-		<xsl:param name= "reg" select = "//subregion" />    
-		<h4>   <xsl:value-of select = '$reg'/> 
-				(<xsl:value-of select = 'count(//infosContinent[subregion = $reg])'/> pays)
-		 </h4>
-		<xsl:for-each select="//country">
-		<xsl:if test="infosContinent[continent = $contine]">
-		<xsl:if test="infosContinent[subregion = $reg]">
-		
-		<tr>
-			<td><xsl:number/></td>
-			<td>
-				<span style="color:green">
-					<xsl:value-of select="name/common"/>
-				</span>
-				(<xsl:value-of select="name/official"/>)
-				<xsl:if test="name/native_name[@lang='fra']">
-					<span style="color:brown">
-						<br/>
-						Nom français : <xsl:value-of select="name/native_name[@lang='fra']/official"/>
-					</span>
-				</xsl:if>
-			</td>
-			<td> 
-				<xsl:value-of select="capital"/> 
-			</td>
-			<td>
+	<xsl:template name="remplirTab">
 
-				<xsl:choose>
+		<xsl:param name="contine" select="//continent"/>
 
-					<xsl:when test="borders[count(neighbour)>0]">
+		<xsl:param name="reg" select="//subregion"/>
 
-						<xsl:for-each select="borders/neighbour"> 
-							<xsl:variable name= "code"> 
-								<xsl:value-of select="."/>
-			 				</xsl:variable> 
-							 <xsl:for-each select="//country">
-								<xsl:if test="codes[cca3 = $code]">
-			 						<xsl:value-of select="name/common"/>,
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:for-each>
-					</xsl:when>
+		<xsl:for-each select="//country[infosContinent/continent = $contine and infosContinent/subregion = $reg]">
 
-					<xsl:otherwise>
+					<tr>
+						<td> <xsl:value-of select="position()"/> </td>
+						<td>
+							<span style="color:green">
+								<xsl:value-of select="name/common"/>
+							</span>
+							(<xsl:value-of select="name/official"/>)
 
-						<xsl:choose>
+							<xsl:if test="name/native_name[@lang='fra']">
+								<span style="color:brown">
+									<br/>
+									Nom français :
 
-							<xsl:when test="landlocked='false'">
-								Île
-							</xsl:when>
+									<xsl:value-of select="name/native_name[@lang='fra']/official"/>
+								</span>
+							</xsl:if>
+						</td>
+						<td>
+							<xsl:value-of select="capital"/>
+						</td>
+						<td>
 
-							<xsl:otherwise></xsl:otherwise>
-						</xsl:choose>
-					</xsl:otherwise>
+							<xsl:choose>
 
-				</xsl:choose>
-			</td>
-			<td>
-				Latitude:
+								<xsl:when test="borders[count(neighbour)>0]">
 
-				<xsl:value-of select="coordinates/@lat"/>
-				<br/>
-				Longitude:
+									<xsl:for-each select="borders/neighbour">
 
-				<xsl:value-of select="coordinates/@long"/>
-			</td>
-			<td>
+										<xsl:variable name="code">
+											<xsl:value-of select="."/>
+										</xsl:variable>
+										<xsl:if test="position()>1" >, </xsl:if>
+										<xsl:for-each select="//country[codes/cca3 = $code]">
+											<xsl:value-of select="name/common"/>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:when>
 
-				<xsl:variable name="lcletters">abcdefghijklmnopqrstuvwxyz</xsl:variable>
+								<xsl:otherwise>
 
-				<xsl:variable name="ucletters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</xsl:variable>
+									<xsl:choose>
 
-				<xsl:variable name="code">
-					<xsl:value-of select="translate(codes/cca2,$ucletters,$lcletters)"/>
-				</xsl:variable>
-				<img src="http://www.geonames.org/flags/x/{$code}.gif" alt="" height="40" width="60"/>
+										<xsl:when test="landlocked='false'">
+											Île
+										</xsl:when>
 
-			</td>
-		</tr>
-		</xsl:if>
-		</xsl:if>
-	</xsl:for-each> 
-	</xsl:template> 
+										<xsl:otherwise></xsl:otherwise>
+									</xsl:choose>
+								</xsl:otherwise>
+
+							</xsl:choose>
+						</td>
+						<td>
+							Latitude:
+
+							<xsl:value-of select="coordinates/@lat"/>
+							<br/>
+							Longitude:
+
+							<xsl:value-of select="coordinates/@long"/>
+						</td>
+						<td>
+
+							<xsl:variable name="lcletters">abcdefghijklmnopqrstuvwxyz</xsl:variable>
+
+							<xsl:variable name="ucletters">ABCDEFGHIJKLMNOPQRSTUVWXYZ</xsl:variable>
+
+							<xsl:variable name="code">
+								<xsl:value-of select="translate(codes/cca2,$ucletters,$lcletters)"/>
+							</xsl:variable>
+							<img src="http://www.geonames.org/flags/x/{$code}.gif" alt="" height="40" width="60"/>
+
+						</td>
+					</tr>
+		</xsl:for-each>
+	</xsl:template>
 </xsl:stylesheet>
