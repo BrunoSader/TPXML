@@ -35,8 +35,10 @@
 				<xsl:variable name= "conti"> 
 								<xsl:value-of select="."/>
 			 	</xsl:variable> 
-				 <xsl:for-each select = "//subregion[not(.=preceding::*)]">  
-				 <xsl:if test="//infosContinent[continent = $conti]">
+				 <xsl:if test="../../infosContinent[continent = $conti]">
+				 <xsl:for-each select = "../subregion[not(.=preceding::*)]">  
+				 
+				 
 				 le if marche pas si quelqu'un a une idée comment réparer  
 				<xsl:variable name= "region"> 
 								<xsl:value-of select="."/>
@@ -55,9 +57,9 @@
 					<xsl:with-param name= "reg" select = "$region" /> 
 					 </xsl:call-template> 
 				</table> 
-				</xsl:if>
+				
 				 </xsl:for-each>
-				 
+				 </xsl:if>
 				 </xsl:for-each>
 
 			</body>
@@ -132,12 +134,10 @@
 				</xsl:choose>
 			</td>
 			<td>
-				Latitude:
-
+				Latitude: 
 				<xsl:value-of select="coordinates/@lat"/>
 				<br/>
-				Longitude:
-
+				Longitude: 
 				<xsl:value-of select="coordinates/@long"/>
 			</td>
 			<td>
